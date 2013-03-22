@@ -14,10 +14,10 @@
 #
 
 # Add Ducati - Define the tgz to be unpacked, and enable the
-# ducati-m3.bin package, which is defined in the top-level Android.mk
+# ducati-m3-core0.xem3 package, which is defined in the top-level Android.mk
 # of the proprietary-open tree
 
 ifeq (blaze_tablet,$(TARGET_PRODUCT))
 DUCATI_TGZ := device/ti/proprietary-open/omap4/ducati_blaze_tablet.tgz
-PRODUCT_PACKAGES += ducati-m3.bin
+PRODUCT_PACKAGES += ducati-m3-core0.xem3
 endif
