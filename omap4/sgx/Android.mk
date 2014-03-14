@@ -136,8 +136,8 @@ $(foreach _file,$(prebuilt_sgx_vendor_bins),\
 $(foreach _file,$(prebuilt_sgx_vendor_etc),\
   $(eval $(call _add-sgx-vendor-etc,$(_file))))
 
-$(foreach _file,$(prebuilt_sgx_vendor_km),\
-  $(eval $(call _add-sgx-vendor-km,$(_file))))
+#$(foreach _file,$(prebuilt_sgx_vendor_km),\
+#  $(eval $(call _add-sgx-vendor-km,$(_file))))
 
 prebuilt_sgx_modules :=
 prebuilt_sgx_vendor_libs :=
